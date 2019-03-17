@@ -1,0 +1,21 @@
+{
+    "name": "xpl-php/datetime",
+	"description": "DateTime helpers and utilities",
+    "type": "library",
+    "license": "MIT",
+	"authors": [
+		{
+			"name": "Wells Peterson",
+			"email": "peterson.wells@gmail.com"
+		}
+	],
+	"keywords": ["date", "time", "datetime"],
+    "require": {
+        "php": ">=7.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xpl\\DateTime\\": "src"
+        }
+    }
+}
